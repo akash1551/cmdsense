@@ -6,9 +6,6 @@ before:
   hooks:
     - go mod tidy
 
-edits:
-  - .
-
 builds:
   - env:
       - CGO_ENABLED=0
@@ -21,7 +18,11 @@ builds:
       - arm64
 
 archives:
-
+  - format: tar.gz
+    # this name template makes the replacements.
+    # if you want to use the default name template you can remove this configuration.
+    name_template: >-
+      {{ .ProjectName }}_{{ .Os }}_{{ .Arch }}
     format_overrides:
       - goos: windows
         format: zip
