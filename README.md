@@ -16,14 +16,14 @@
 ### One-line Install (Recommended)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/cmdsense/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/akash1551/cmdsense/main/install.sh | bash
 ```
 
 ### Manual Install
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/cmdsense.git
+    git clone https://github.com/akash1551/cmdsense.git
     cd cmdsense
     ```
 2.  Build the binary:
