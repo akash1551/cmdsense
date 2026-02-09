@@ -68,7 +68,18 @@ source <(cmdsense init zsh)
 
 Now, type a command in your terminal (don't press Enter) and press **Ctrl+g**.
 
-### 2. Manual Usage
+### 2. Shell Integration (Bash)
+
+Add the widget to your `.bashrc` to enable the `Ctrl+g` shortcut:
+
+```bash
+# Add this to your ~/.bashrc
+source <(cmdsense init bash)
+```
+
+Type a command and press **Ctrl+g**.
+
+### 3. Manual Usage
 
 ```bash
 cmdsense "tar -czvf archive.tar.gz /path/to/folder"
