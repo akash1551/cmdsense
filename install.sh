@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-REPO="YOUR_USERNAME/cmdsense"
+REPO="akash1551/cmdsense"
 BINARY="cmdsense"
 INSTALL_DIR="/usr/local/bin"
 
