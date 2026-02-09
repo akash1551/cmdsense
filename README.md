@@ -2,7 +2,7 @@
 
 **cmdsense** is an AI-powered CLI tool that explains shell commands right in your terminal. It helps you understand complex flags, warns about destructive actions, and suggests fixes.
 
-![Demo](https://via.placeholder.com/800x400?text=Demo+GIF+Here)
+![Demo](assets/cmd1.png)
 
 ## Features
 
@@ -54,6 +54,8 @@ cmdsense config --provider ollama --model llama3
 ```
 
 ## Usage
+
+![Usage Example](assets/cmd2.png)
 
 ### 1. Shell Integration (Zsh)
 
